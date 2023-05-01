@@ -72,7 +72,7 @@
 
 // Buffered print write to WiFi -> length of buffer
 // Can be by project, just define it before include this file
-#define BUFFER_PRINT 150
+#define BUFFER_PRINT 1460
 
 // Should the help text be displayed on connection.
 // Enabled by default, comment to disable
@@ -82,7 +82,7 @@
 // Uncomment this to disable it
 #define CLIENT_BUFFERING true
 #ifdef CLIENT_BUFFERING
-#define DELAY_TO_SEND 10 // Time to send buffer
+#define DELAY_TO_SEND 200 // Time to send buffer
 #define MAX_SIZE_SEND 1460 // Maximum size of packet (limit of TCP/IP)
 #endif
 
